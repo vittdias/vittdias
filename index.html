@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog - Viagens e Vida</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Reina Vitória Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#posts">Postagens</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Oi! Eu sou a  VitT. Amo compartilhar minhas experiências de vida e viagens pelo mundo!</p>
+    </section>
+
+    <section id="posts">
+        <h2>Postagens Recentes</h2>
+        <article class="post">
+            <h3>Minha Viagem para a Argentina</h3>
+            <p>Recentemente, fiz uma viagem incrível para a Argentina! Visitei Buenos Aires, explorei a cultura local e me apaixonei pelos sabores da comida argentina. Mal posso esperar para voltar!</p>
+            <button class="like-btn" onclick="likePost(this)">Curtir</button> 
+            <span class="like-count">0 curtidas</span>
+        </article>
+    </section>
+
+    <section id="gallery">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="argentina.jpg" alt="Viagem Argentina">
+            <img src="buenos-aires.jpg" alt="Buenos Aires">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 vitt Blog</p>
+    </footer>
+</body>
+</html>
