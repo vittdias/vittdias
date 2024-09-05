@@ -122,3 +122,22 @@ footer a:hover {
         <button class="comment-button"><i class="fas fa-comments"></i> Comentar</button>
     </div>
 </main>
+.about {
+    background-color: #ff6363;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: auto;
+}
