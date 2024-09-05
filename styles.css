@@ -113,3 +113,12 @@ footer a:hover {
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+<main class="posts-grid">
+    <div class="post">
+        <h2>Minha Viagem à Argentina</h2>
+        <img src="argentina.jpg" alt="Viagem Argentina">
+        <p>Minha viagem à Argentina foi incrível! Buenos Aires tem uma atmosfera vibrante e cultural. Foi uma experiência inesquecível explorar os museus, cafés e, claro, os deliciosos churrascos.</p>
+        <button class="like-button"><i class="fas fa-thumbs-up"></i> Curtir</button>
+        <button class="comment-button"><i class="fas fa-comments"></i> Comentar</button>
+    </div>
+</main>
